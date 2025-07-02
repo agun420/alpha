@@ -22,7 +22,7 @@ jobs:
           pip install yfinance pandas numpy scikit-learn tensorflow matplotlib ta lxml requests
 
       - name: Run Model Training
-        run: python run_scanner.py train
+        run: python alpha.py train
 
       - name: Cache Trained Model
         uses: actions/cache@v4
