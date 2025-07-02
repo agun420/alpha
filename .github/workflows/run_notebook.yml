@@ -46,6 +46,6 @@ jobs:
 
       - name: Run Stock Scanner
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.7950007800:AAFbWEDRJa3A5Nt9C1ERFm-t-CyysBgMmhM }}
-          TELEGRAM_CHAT_ID: ${{ secrets.6970413519 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python alpha.py scan
